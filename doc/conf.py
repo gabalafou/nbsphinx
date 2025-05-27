@@ -9,9 +9,12 @@ extensions = [
     'sphinxcontrib.bibtex',  # for bibliographic references
     'sphinxcontrib.rsvgconverter',  # for SVG->PDF conversion in LaTeX output
     'sphinx_last_updated_by_git',  # get "last updated" from Git
-    'sphinx_codeautolink',  # automatic links from code to documentation
     'sphinx.ext.intersphinx',  # links to other Sphinx projects (e.g. NumPy)
+    'sphinx_copybutton'
 ]
+
+copybutton_exclude = ".linenos, .gp"
+copybutton_selector = ":not(.prompt) > div.highlight pre"
 
 # These projects are also used for the sphinx_codeautolink extension:
 intersphinx_mapping = {

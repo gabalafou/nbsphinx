@@ -13,4 +13,4 @@ sphinxcontrib-svg2pdfconverter
 ipywidgets
 jupytext
 sphinx-last-updated-by-git
-sphinx-codeautolink
+sphinx-copybutton
