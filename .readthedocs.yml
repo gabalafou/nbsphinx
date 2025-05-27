@@ -19,4 +19,4 @@ python:
     - requirements: doc/fallback_theme.txt
 sphinx:
   configuration: doc/conf.py
-formats: all
+formats: [] # just html
