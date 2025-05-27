@@ -1,4 +1,4 @@
-pydata-sphinx-theme
+pydata-sphinx-theme @ git+https://github.com/gabalafou/pydata-sphinx-theme@notebook-cell-styling
 ipykernel
 numpy
 matplotlib
